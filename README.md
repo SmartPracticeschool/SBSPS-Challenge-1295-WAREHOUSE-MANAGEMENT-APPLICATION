@@ -9,9 +9,9 @@ A food delivery service has to deal with a lot of perishable raw materials which
 The proposed solution is a web application/mobile application that will interact with the ml model integrated on the IBM cloud. The web application will take product code, city code, base price of the product, and promotion of the product as inputs and display different graphs that will show the predicted weights and the predicted earnings for a particular product in a particular week. The machine-learning algorithm used can make demand forecasts based not just on historical sales data but also on other influencing parameters like internal factors such as advertising campaigns.
 ## WEB APPLICATION
 This is the user interface created which takes Center Id ,Product Id,the base price of the product and the week number on which the number of orders of that product is to be predicted.
-![](Screenshot%%(845).png)
+![](Screenshot%(845).png)
 After entering the required inputs in the form as shown above we get the required predictions.The visualization is enhanced by creating two graphs.The first graph shows the predictions i.e the expected number of orders for the product in the coming weeks.The second graph shows the expected earnings of the product in the coming weeks.
-@
+![](Screenshot%(844).png)
 ## Hardware/Software designing
 * Various IBM software technologies are used in making of the project.
 * For back-end implementation IBM Machine Learning service AUTO AI is used to select the best possible algorithm for the prediction.
