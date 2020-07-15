@@ -8,10 +8,10 @@ A food delivery service has to deal with a lot of perishable raw materials which
 ## Proposed solution
 The proposed solution is a web application/mobile application that will interact with the ml model integrated on the IBM cloud. The web application will take product code, city code, base price of the product, and promotion of the product as inputs and display different graphs that will show the predicted weights and the predicted earnings for a particular product in a particular week. The machine-learning algorithm used can make demand forecasts based not just on historical sales data but also on other influencing parameters like internal factors such as advertising campaigns.
 ## Hardware/Software designing
-Various IBM software technologies are used in making of the project.
-For back-end implementation IBM Machine Learning service AUTO AI is used to select the best possible algorithm for the prediction.
-DB2 database is used to store the necessary information about the product and center,
-And finally, Node-Red is used for the front-end implementation. 
-For mobile application development, android studio is used.
+* Various IBM software technologies are used in making of the project.
+* For back-end implementation IBM Machine Learning service AUTO AI is used to select the best possible algorithm for the prediction.
+* DB2 database is used to store the necessary information about the product and center,
+* And finally, Node-Red is used for the front-end implementation. 
+* For mobile application development, android studio is used.
 ## Applications
 It can have a wide area of applications, particularly in the manufacturing sector where we need accurate inventory management and demand forecasting. Thus it shall be crucial for supply-chain management.
